@@ -1,0 +1,6 @@
+.cover__text {
+  margin: auto auto;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  z-index: 2;
+}

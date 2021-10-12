@@ -1,0 +1,8 @@
+.page {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2A2C2F;
+    margin: 0 auto;
+    font-family: 'Inter';
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.places__cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 80px;
+}
+
+@media (max-width: 768px) {
+  .places__cards {
+    grid-row-gap: 73px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__cards {
+    grid-row-gap: 50px;
+  }
+}

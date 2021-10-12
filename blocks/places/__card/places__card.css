@@ -1,0 +1,12 @@
+.places__card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, calc(50% - 8px)));
+  grid-gap: 48px 16px;
+  justify-content: center;
+}
+
+@media (max-width: 320px) {
+  .places__card {
+    grid-row-gap: 32px;
+  }
+}
